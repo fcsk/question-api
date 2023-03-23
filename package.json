@@ -1,0 +1,23 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcsk/question-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcsk/question-api/issues"
+  },
+  "homepage": "https://github.com/fcsk/question-api#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
