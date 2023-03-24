@@ -18,8 +18,7 @@
     <p>This API serves questions in JSON format. You can access the questions by sending HTTP requests to the appropriate endpoints.</p>
     <p>The available endpoints are:</p>
     <ul>
-      <li>/questions - Returns a list of all the questions.</li>
-      <li>/questions/:id - Returns the question with the specified ID.</li>
+      <li>/questions - Returns an array of objects, each of which is a question with answers and flag of  correct answer</li>
     </ul>
     <p>You can use a tool like <code>curl</code> or a web browser extension like <code>RESTClient</code> to send HTTP requests to these endpoints.</p>
     <h2>Contributing</h2>
